@@ -1,0 +1,22 @@
+# Model checkpoints and large files
+models/checkpoints/
+models/cache/
+*.bin
+*.safetensors
+
+# Data
+data/raw/
+data/processed/large/
+*.csv
+*.json
+*.pkl
+
+# Results
+results/wandb/
+results/checkpoints/
+__pycache__/
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.log

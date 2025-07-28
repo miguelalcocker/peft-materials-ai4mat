@@ -1,0 +1,39 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            dkh7qxnjuk3qr34zpjc54og71pebb2lr:
+                codePath: scripts/test_setup.py
+                codePathLocal: scripts/test_setup.py
+                email: miguelalcocerperez@icloud.com
+                executable: /home/malco/miniforge3/envs/ai4mat/bin/python
+                host: gpuserver2
+                os: Linux-6.8.0-63-generic-x86_64-with-glibc2.39
+                program: /home/malco/peft-materiales-ai4mat/scripts/test_setup.py
+                python: CPython 3.10.18
+                root: /home/malco/peft-materiales-ai4mat
+                startedAt: "2025-07-28T14:23:42.709647Z"
+                writerId: dkh7qxnjuk3qr34zpjc54og71pebb2lr
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 71
+                - 98
+            "2":
+                - 1
+                - 11
+                - 49
+                - 71
+                - 98
+            "3":
+                - 2
+                - 13
+            "4": 3.10.18
+            "5": 0.21.0
+            "6": 4.34.0
+            "12": 0.21.0
+            "13": linux-x86_64

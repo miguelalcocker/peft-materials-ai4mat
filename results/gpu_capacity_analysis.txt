@@ -1,0 +1,23 @@
+
+=== Testing DistilBERT (baseline) ===
+Model: distilbert-base-uncased
+Model memory: 0.27 GB
+Error: Target modules ['query', 'value'] not found in the base model. Please check the target modules and try again.
+
+=== Testing MatSciBERT (materials science) ===
+Model: m3rg-iitd/matscibert
+Model memory: 0.44 GB
+PEFT memory: 0.44 GB
+Memory overhead: 0.00 GB
+Trainable params: 294,912 (0.27%)
+
+=== Testing ChemBERTa-77M (chemistry) ===
+Model: DeepChem/ChemBERTa-77M-MLM
+Model memory: 0.01 GB
+PEFT memory: 0.01 GB
+Memory overhead: 0.00 GB
+Trainable params: 36,864 (1.06%)
+
+=== SUMMARY ===
+m3rg-iitd/matscibert: 0.44 GB (PEFT)
+DeepChem/ChemBERTa-77M-MLM: 0.01 GB (PEFT)
