@@ -25,7 +25,7 @@ class MoleculeNetDownloader:
         },
         'freesolv': {
             'url': 'https://github.com/MobleyLab/FreeSolv/raw/master/database.txt',
-            'target_col': 'expt',
+            'target_col': 'experimental_value',
             'smiles_col': 'smiles', 
             'task_type': 'regression',
             'description': 'Hydration free energy prediction'
@@ -56,8 +56,13 @@ class MoleculeNetDownloader:
         try:
             if dataset_name == 'freesolv':
                 # Special handling for FreeSolv format
-                df = pd.read_csv(dataset_info['url'], sep=';', comment='#')
-                print("cabecita", df.head())
+                col_names = [
+                    'compound_id', 'smiles', 'iupac_name', 'experimental_value', 'experimental_uncertainty',
+                    'mobley_calculated_value', 'calculated_uncertainty', 'experimental_reference',
+                    'calculated_reference', 'text_notes'
+                ]
+                df = pd.read_csv(dataset_info['url'], sep=';', comment='#', header=None, names=col_names)
+
             else:
                 df = pd.read_csv(dataset_info['url'])
                 

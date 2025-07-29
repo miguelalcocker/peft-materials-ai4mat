@@ -1,0 +1,180 @@
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/malco/miniforge3/envs/mymatbench-env
+
+  added / updated specs:
+    - matminer
+    - numpy
+    - pandas
+    - python=3.10
+    - scikit-learn
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bibtexparser-1.4.3         |     pyhd8ed1ab_0          41 KB  conda-forge
+    lcms2-2.17                 |       h717163a_0         242 KB  conda-forge
+    libblas-3.9.0              |32_h59b9bed_openblas          17 KB  conda-forge
+    libcblas-3.9.0             |32_he106b2a_openblas          17 KB  conda-forge
+    libdeflate-1.24            |       h86f0d12_0          71 KB  conda-forge
+    libjpeg-turbo-3.1.0        |       hb9d3cd8_0         614 KB  conda-forge
+    liblapack-3.9.0            |32_h7ac8fdf_openblas          17 KB  conda-forge
+    libopenblas-0.3.30         |pthreads_h94d23a6_1         5.6 MB  conda-forge
+    libtiff-4.7.0              |       hf01ce69_5         420 KB  conda-forge
+    libxcb-1.17.0              |       h8a09558_0         387 KB  conda-forge
+    libxslt-1.1.43             |       h7a3aeb2_0         239 KB  conda-forge
+    lxml-6.0.0                 |  py310h490dddc_0         1.4 MB  conda-forge
+    matminer-0.9.3             |     pyhd8ed1ab_1         4.9 MB  conda-forge
+    matplotlib-base-3.10.3     |  py310h68603db_0         7.0 MB  conda-forge
+    monty-2025.3.3             |     pyhd8ed1ab_0          46 KB  conda-forge
+    openjpeg-2.5.3             |       h5fbd93e_0         335 KB  conda-forge
+    orjson-3.11.1              |  py310hd8f68c5_0         324 KB  conda-forge
+    pillow-11.3.0              |  py310h7e6dc6c_0        40.2 MB  conda-forge
+    pymatgen-2025.6.14         |  py310haaf2d95_0         4.2 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        66.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  bibtexparser       conda-forge/noarch::bibtexparser-1.4.3-pyhd8ed1ab_0 
+  brotli             conda-forge/linux-64::brotli-1.1.0-hb9d3cd8_3 
+  brotli-bin         conda-forge/linux-64::brotli-bin-1.1.0-hb9d3cd8_3 
+  brotli-python      conda-forge/linux-64::brotli-python-1.1.0-py310hf71b8c6_3 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h4bc722e_7 
+  ca-certificates    conda-forge/noarch::ca-certificates-2025.7.14-hbd8a1cb_0 
+  certifi            conda-forge/noarch::certifi-2025.7.14-pyhd8ed1ab_0 
+  cffi               conda-forge/linux-64::cffi-1.17.1-py310h8deb56e_0 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.4.2-pyhd8ed1ab_0 
+  colorama           conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_1 
+  contourpy          conda-forge/linux-64::contourpy-1.3.2-py310h3788b33_0 
+  cpython            conda-forge/noarch::cpython-3.10.18-py310hd8ed1ab_0 
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_1 
+  dnspython          conda-forge/noarch::dnspython-2.7.0-pyhff2d567_1 
+  fonttools          conda-forge/linux-64::fonttools-4.59.0-py310h3406613_0 
+  freetype           conda-forge/linux-64::freetype-2.13.3-ha770c72_1 
+  future             conda-forge/noarch::future-1.0.0-pyhd8ed1ab_2 
+  gmp                conda-forge/linux-64::gmp-6.3.0-hac33072_2 
+  gmpy2              conda-forge/linux-64::gmpy2-2.2.1-py310he8512ff_0 
+  h2                 conda-forge/noarch::h2-4.2.0-pyhd8ed1ab_0 
+  hpack              conda-forge/noarch::hpack-4.1.0-pyhd8ed1ab_0 
+  hyperframe         conda-forge/noarch::hyperframe-6.1.0-pyhd8ed1ab_0 
+  icu                conda-forge/linux-64::icu-75.1-he02047a_0 
+  idna               conda-forge/noarch::idna-3.10-pyhd8ed1ab_1 
+  importlib-metadata conda-forge/noarch::importlib-metadata-8.7.0-pyhe01879c_1 
+  importlib-resourc~ conda-forge/noarch::importlib-resources-6.5.2-pyhd8ed1ab_0 
+  importlib_resourc~ conda-forge/noarch::importlib_resources-6.5.2-pyhd8ed1ab_0 
+  joblib             conda-forge/noarch::joblib-1.5.1-pyhd8ed1ab_0 
+  kiwisolver         conda-forge/linux-64::kiwisolver-1.4.8-py310h3788b33_1 
+  latexcodec         conda-forge/noarch::latexcodec-2.0.1-pyh9f0ad1d_0 
+  lcms2              conda-forge/linux-64::lcms2-2.17-h717163a_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.44-h1423503_1 
+  lerc               conda-forge/linux-64::lerc-4.0.0-h0aef613_1 
+  libblas            conda-forge/linux-64::libblas-3.9.0-32_h59b9bed_openblas 
+  libbrotlicommon    conda-forge/linux-64::libbrotlicommon-1.1.0-hb9d3cd8_3 
+  libbrotlidec       conda-forge/linux-64::libbrotlidec-1.1.0-hb9d3cd8_3 
+  libbrotlienc       conda-forge/linux-64::libbrotlienc-1.1.0-hb9d3cd8_3 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-32_he106b2a_openblas 
+  libdeflate         conda-forge/linux-64::libdeflate-1.24-h86f0d12_0 
+  libexpat           conda-forge/linux-64::libexpat-2.7.1-hecca717_0 
+  libffi             conda-forge/linux-64::libffi-3.4.6-h2dba641_1 
+  libfreetype        conda-forge/linux-64::libfreetype-2.13.3-ha770c72_1 
+  libfreetype6       conda-forge/linux-64::libfreetype6-2.13.3-h48d6fc4_1 
+  libgcc             conda-forge/linux-64::libgcc-15.1.0-h767d61c_3 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-15.1.0-h69a702a_3 
+  libgfortran        conda-forge/linux-64::libgfortran-15.1.0-h69a702a_3 
+  libgfortran5       conda-forge/linux-64::libgfortran5-15.1.0-hcea5267_3 
+  libgomp            conda-forge/linux-64::libgomp-15.1.0-h767d61c_3 
+  libiconv           conda-forge/linux-64::libiconv-1.18-h4ce23a2_1 
+  libjpeg-turbo      conda-forge/linux-64::libjpeg-turbo-3.1.0-hb9d3cd8_0 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-32_h7ac8fdf_openblas 
+  liblzma            conda-forge/linux-64::liblzma-5.8.1-hb9d3cd8_2 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hb9d3cd8_1 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.30-pthreads_h94d23a6_1 
+  libpng             conda-forge/linux-64::libpng-1.6.50-h943b412_0 
+  libsqlite          conda-forge/linux-64::libsqlite-3.50.3-hee844dc_1 
+  libstdcxx          conda-forge/linux-64::libstdcxx-15.1.0-h8f9b012_3 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-15.1.0-h4852527_3 
+  libtiff            conda-forge/linux-64::libtiff-4.7.0-hf01ce69_5 
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0 
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.6.0-hd42ef1d_0 
+  libxcb             conda-forge/linux-64::libxcb-1.17.0-h8a09558_0 
+  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.36-hd590300_1 
+  libxml2            conda-forge/linux-64::libxml2-2.13.8-h4bc477f_0 
+  libxslt            conda-forge/linux-64::libxslt-1.1.43-h7a3aeb2_0 
+  libzlib            conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2 
+  lxml               conda-forge/linux-64::lxml-6.0.0-py310h490dddc_0 
+  matminer           conda-forge/noarch::matminer-0.9.3-pyhd8ed1ab_1 
+  matplotlib-base    conda-forge/linux-64::matplotlib-base-3.10.3-py310h68603db_0 
+  monty              conda-forge/noarch::monty-2025.3.3-pyhd8ed1ab_0 
+  mpc                conda-forge/linux-64::mpc-1.3.1-h24ddda3_1 
+  mpfr               conda-forge/linux-64::mpfr-4.2.1-h90cbb55_3 
+  mpmath             conda-forge/noarch::mpmath-1.3.0-pyhd8ed1ab_1 
+  munkres            conda-forge/noarch::munkres-1.1.4-pyhd8ed1ab_1 
+  narwhals           conda-forge/noarch::narwhals-2.0.0-pyhe01879c_0 
+  ncurses            conda-forge/linux-64::ncurses-6.5-h2d0b736_3 
+  networkx           conda-forge/noarch::networkx-3.4.2-pyh267e887_2 
+  numpy              conda-forge/linux-64::numpy-2.2.6-py310hefbff90_0 
+  openjpeg           conda-forge/linux-64::openjpeg-2.5.3-h5fbd93e_0 
+  openssl            conda-forge/linux-64::openssl-3.5.1-h7b32b05_0 
+  orjson             conda-forge/linux-64::orjson-3.11.1-py310hd8f68c5_0 
+  packaging          conda-forge/noarch::packaging-25.0-pyh29332c3_1 
+  palettable         conda-forge/noarch::palettable-3.3.3-pyhd8ed1ab_1 
+  pandas             conda-forge/linux-64::pandas-2.3.1-py310h0158d43_0 
+  pillow             conda-forge/linux-64::pillow-11.3.0-py310h7e6dc6c_0 
+  pip                conda-forge/noarch::pip-25.1.1-pyh8b19718_0 
+  plotly             conda-forge/noarch::plotly-6.2.0-pyhd8ed1ab_0 
+  pthread-stubs      conda-forge/linux-64::pthread-stubs-0.4-hb9d3cd8_1002 
+  pybtex             conda-forge/noarch::pybtex-0.25.1-pyhd8ed1ab_0 
+  pycparser          conda-forge/noarch::pycparser-2.22-pyh29332c3_1 
+  pymatgen           conda-forge/linux-64::pymatgen-2025.6.14-py310haaf2d95_0 
+  pymongo            conda-forge/linux-64::pymongo-4.13.2-py310hea6c23e_0 
+  pyparsing          conda-forge/noarch::pyparsing-3.2.3-pyhd8ed1ab_1 
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyha55dd90_7 
+  python             conda-forge/linux-64::python-3.10.18-hd6af730_0_cpython 
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2 
+  python-tzdata      conda-forge/noarch::python-tzdata-2025.2-pyhd8ed1ab_0 
+  python_abi         conda-forge/noarch::python_abi-3.10-8_cp310 
+  pytz               conda-forge/noarch::pytz-2025.2-pyhd8ed1ab_0 
+  pyyaml             conda-forge/linux-64::pyyaml-6.0.2-py310h89163eb_2 
+  qhull              conda-forge/linux-64::qhull-2020.2-h434a139_5 
+  readline           conda-forge/linux-64::readline-8.2-h8c095d6_2 
+  requests           conda-forge/noarch::requests-2.32.4-pyhd8ed1ab_0 
+  ruamel.yaml        conda-forge/linux-64::ruamel.yaml-0.18.14-py310ha75aee5_0 
+  ruamel.yaml.clib   conda-forge/linux-64::ruamel.yaml.clib-0.2.8-py310ha75aee5_1 
+  scikit-learn       conda-forge/linux-64::scikit-learn-1.7.1-py310h228f341_0 
+  scipy              conda-forge/linux-64::scipy-1.15.2-py310h1d65ade_0 
+  setuptools         conda-forge/noarch::setuptools-80.9.0-pyhff2d567_0 
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1 
+  sniffio            conda-forge/noarch::sniffio-1.3.1-pyhd8ed1ab_1 
+  spglib             conda-forge/linux-64::spglib-2.6.0-py310h1e9006d_0 
+  sympy              conda-forge/noarch::sympy-1.14.0-pyh2585a3b_105 
+  tabulate           conda-forge/noarch::tabulate-0.9.0-pyhd8ed1ab_2 
+  threadpoolctl      conda-forge/noarch::threadpoolctl-3.6.0-pyhecae5ae_0 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_hd72426e_102 
+  tqdm               conda-forge/noarch::tqdm-4.67.1-pyhd8ed1ab_1 
+  typing-extensions  conda-forge/noarch::typing-extensions-4.14.1-h4440ef1_0 
+  typing_extensions  conda-forge/noarch::typing_extensions-4.14.1-pyhe01879c_0 
+  tzdata             conda-forge/noarch::tzdata-2025b-h78e105d_0 
+  uncertainties      conda-forge/noarch::uncertainties-3.2.3-pyhd8ed1ab_0 
+  unicodedata2       conda-forge/linux-64::unicodedata2-16.0.0-py310ha75aee5_0 
+  urllib3            conda-forge/noarch::urllib3-2.5.0-pyhd8ed1ab_0 
+  wheel              conda-forge/noarch::wheel-0.45.1-pyhd8ed1ab_1 
+  xorg-libxau        conda-forge/linux-64::xorg-libxau-1.0.12-hb9d3cd8_0 
+  xorg-libxdmcp      conda-forge/linux-64::xorg-libxdmcp-1.1.5-hb9d3cd8_0 
+  yaml               conda-forge/linux-64::yaml-0.2.5-h280c20c_3 
+  zipp               conda-forge/noarch::zipp-3.23.0-pyhd8ed1ab_0 
+  zstandard          conda-forge/linux-64::zstandard-0.23.0-py310ha75aee5_2 
+  zstd               conda-forge/linux-64::zstd-1.5.7-hb8e6e7a_2 
+
+
+Proceed ([y]/n)? 
